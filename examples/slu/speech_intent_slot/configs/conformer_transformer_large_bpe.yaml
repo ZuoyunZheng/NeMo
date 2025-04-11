@@ -4,7 +4,7 @@ name: "Conformer-Transformer-BPE"
 
 pretrained_encoder:
   name: stt_en_conformer_ctc_large
-  freeze: false
+  freeze: true
 
 model:
   sample_rate: 16000
